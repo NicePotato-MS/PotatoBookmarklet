@@ -1,1 +1,1 @@
-javascript:(function () {var v = document.createElement('script');v.src = 'https://raw.githubusercontent.com/NicePotato-MS/PotatoBookmarklet/main/script.js';document.body.appendChild(v);}())
+javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/NicePotato-MS/PotatoBookmarklet@main/script.min.js';document.body.appendChild(v);}())

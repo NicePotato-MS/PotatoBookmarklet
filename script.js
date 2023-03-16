@@ -1,3 +1,5 @@
+alert("DNsploit loaded");
+
 function makeId(length) {
     let result = '';
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
