@@ -49,7 +49,7 @@ function dragElement(elmnt) {
 
 // Make the script's UUID
 var pUUID = makeId(8);
-var body = document.querySelector('body');
+var body = document.getElementsByTagName("body")[0];
 
 
 // Create main body
