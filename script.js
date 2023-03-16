@@ -49,7 +49,6 @@ function dragElement(elmnt) {
 
 // Make the script's UUID
 var pUUID = makeId(8);
-var body = document.getElementsByTagName("body")[0];
 
 
 // Create main body
@@ -64,6 +63,6 @@ pTools.style.color = "white";
 pTools.style.cursor = "move";
 pTools.id = "potatoTools";
 
-body.appendChild(pTools);
+document.getElementsByTagName("body")[0].appendChild(pTools);
 
 dragElement(pTools);
